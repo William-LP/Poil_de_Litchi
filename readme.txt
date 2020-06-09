@@ -1,3 +1,3 @@
 # To do
-* Formulaire de contact
+* Contact form
 * Create backend to manage images

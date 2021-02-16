@@ -8,3 +8,9 @@
 * Keep natural ratio
 * Copy modified file to [preview](img/preview) folder.
 * Keep original file within [full_size](img/full_size) folder.
+
+# db.json
+Get list using JQ
+```bash 
+cat db.json | jq -r '.images[] | .title'
+```
